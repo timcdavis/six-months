@@ -1,0 +1,50 @@
+
+body {
+  background: #000000 !important;
+}
+
+/* Style for container */
+.container-site {
+  scroll-snap-type: y mandatory; /* Enable vertical scroll snapping */
+  overflow-y: scroll; /* Allow scrolling */
+  height: 100vh; /* Full viewport height */
+}
+
+/* Each section container */
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start; /* Snap to the top of each section */
+}
+
+/* Background container */
+.background-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Ensure the background stays behind the text */
+  overflow: hidden;
+}
+
+/* Text container */
+.text-container {
+  text-align: center;
+  color: white;
+  font-size: 8rem; /* Adjust font size here */
+  z-index: 1; /* Ensure the text stays above the background */
+}
+
+.text-container h2 {
+  color: #fff;
+}
+
+.soundcloud-container {
+  width: 80%;
+}
+
