@@ -5,7 +5,7 @@ import "./App.css";
 
 // Update textSections to include a SoundCloud section
 const textSections = [
-  { text: "Hey Sophie!", bgColor: "#000", animationType: "bottom" },
+  { text: "Hey Sophie!", bgColor: "#000", animationType: "top" },
   { text: "Happy 6 months!", bgColor: "#000", animationType: "bottom" },
   { text: "Here are the first...", bgColor: "#000", animationType: "bottom" },
   { text: "30 voice notes", emoji: "\u{1F90D}", bgColor: "#000", animationType: "fade" },
